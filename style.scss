@@ -1,6 +1,13 @@
+// vars
+
+$basic-color: #666666;
+$accent-color: #FA1B5E;
+$complementary-color: #FA6693;
+
+
 h1 {
   font-family: 'Satisfy';
-  color: #666666;
+  color: $basic-color;
   font-size: 32px;
   text-align: center;
   margin: 0 0 10px;
@@ -8,7 +15,7 @@ h1 {
 
 p {
   font-family: 'Arial', 'sans-serif';
-  color: #666666;
+  color: $basic-color;
   font-size: 14px;
   text-align: center;
   margin: 0;
@@ -17,7 +24,7 @@ p {
 
 label, legend {
   font-family: 'Satisfy';
-  color: #666666;
+  color: $basic-color;
   display: block;
   font-size: 18px;
   margin-top: 20px;
@@ -33,7 +40,7 @@ body > div {
   margin: 60px auto 30px;
   padding: 40px;
   box-sizing:border-box;
-  box-shadow: 0px 8px 40px #666666;
+  box-shadow: 0px 8px 40px $basic-color;
 }
 
 body {
@@ -41,7 +48,7 @@ body {
 }
 
 input:not([type='radio']) {
-  border-color: #666666;
+  border-color: $basic-color;
   border-width: 1px;
   width: 50%;
   padding: 5px;
@@ -49,7 +56,7 @@ input:not([type='radio']) {
 }
 
 select {
-  border-color: #666666;
+  border-color: $basic-color;
   border-width: 1px;
   width: 50%;
   padding: 5px;
@@ -57,7 +64,7 @@ select {
 }
 
 textarea {
-  border-color: #666666;
+  border-color: $basic-color;
   border-width: 1px;
   width: 50%;
   padding: 5px;
@@ -71,7 +78,7 @@ fieldset {
 }
 
 .submit {
-  background-color: #FA1B5E;
+  background-color: $accent-color;
   width: 50%;
   height: 50px;
   border-radius: 10px 0px 10px 0px;
@@ -83,7 +90,7 @@ fieldset {
 }
 
 .reset {
-  background-color: #666666;
+  background-color: $basic-color;
   height: 50px;
   width: 50%;
   border-radius: 0px 10px 0px 10px;
@@ -94,7 +101,7 @@ fieldset {
   font-size: 18px;
 }
 .fields {
-  border: 2px #FA6693 dotted;
+  border: 2px $complementary-color dotted;
   border-left: 0;
   border-right: 0;
   margin: 30px -40px;
@@ -102,7 +109,7 @@ fieldset {
 }
 
 span {
-  color: #FA1B5E;
+  color: $accent-color;
   font-weight: bold;
 }
 
