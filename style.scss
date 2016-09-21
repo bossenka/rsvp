@@ -79,19 +79,21 @@ fieldset {
   color: white;
   text-transform: uppercase;
   display: inline-block;
+  font-size: 18px;
 }
 
 .reset {
   background-color: #666666;
   height: 50px;
-  width: 49%;
+  width: 50%;
   border-radius: 0px 10px 0px 10px;
   border: 0;
   color: white;
   text-transform: uppercase;
   display: inline-block;
+  font-size: 18px;
 }
-form > div {
+.fields {
   border: 2px #FA6693 dotted;
   border-left: 0;
   border-right: 0;
@@ -106,4 +108,9 @@ span {
 
 fieldset > label {
   display: inline;
+}
+
+.buttons {
+  font-size: 0;
+
 }
