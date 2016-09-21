@@ -1,0 +1,94 @@
+h1 {
+  font-family: 'Satisfy';
+  color: #666666;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+p {
+  font-family: 'Arial', 'sans-serif';
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
+
+label, legend {
+  font-family: 'Satisfy';
+  color: #666666;
+  display: block;
+  font-size: 18px;
+}
+
+body > div {
+  background-color: white;
+  width: 640px;
+  margin: 60px auto 30px;
+  padding: 40px;
+  box-sizing:border-box;
+  box-shadow: 0px 8px 40px #666666;
+}
+
+body {
+  background-image: url('bg.png');
+}
+
+input:not([type='radio']) {
+  border-color: #666666;
+  border-width: 1px;
+  width: 50%;
+}
+
+select {
+  border-color: #666666;
+  border-width: 1px;
+  width: 50%;
+}
+
+textarea {
+  border-color: #666666;
+  border-width: 1px;
+  width: 50%;
+}
+
+fieldset {
+  border: none;
+}
+
+.submit {
+  background-color: #FA1B5E;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px 0px 10px 0px;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.reset {
+  background-color: #666666;
+  height: 50px;
+  width: 49%;
+  border-radius: 0px 10px 0px 10px;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}
+form > div {
+  border: 2px #FA6693 dotted;
+  border-left: 0;
+  border-right: 0;
+  margin: 0 -40px;
+  padding: 0 40px;
+}
+
+span {
+  color: #FA1B5E;
+  font-weight: bold;
+}
+
+fieldset > label {
+  display: inline;
+}

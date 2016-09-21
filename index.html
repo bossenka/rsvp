@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Welcome to my Wedding</title>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
     <div>
@@ -9,13 +11,13 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a augue lectus. Phasellus sit amet dignissim libero. Nullam scelerisque metus ex, at malesuada orci feugiat non.</p>
       <form>
         <div>
-          <label for="name">Your name*</label>
+          <label for="name">Your name<span>*</span></label>
           <input type="text" name="name" id="name"/>
-          <label for="email">E-mail*</label>
+          <label for="email">E-mail<span>*</span></label>
           <input type="email" name="email" id="email"/>
           <label for="phone">Phone number</label>
           <input type="tel" name="phone" id="phone"/>
-          <label for="guests">Number of guests you'll bring (ex. you)*</label>
+          <label for="guests">Number of guests you'll bring (ex. you)<span>*</span></label>
           <select name="guests" id="guests">
             <option value="0">0</option>
             <option value="1" selected>1</option>
@@ -33,7 +35,7 @@
           <textarea name="coments" id="comments" rows="3"></textarea>
         </div>
         <button name="submit" class="submit" type="submit">Submit</button>
-        <button name="reset" class="reset" type="reset">Reset</button>
+        <button name="reset" class="reset" type="reset">Reset Form</button>
       </form>
     </div>
   </body>
