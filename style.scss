@@ -11,6 +11,8 @@ p {
   color: #666666;
   font-size: 14px;
   text-align: center;
+  margin: 0;
+  line-height: 150%;
 }
 
 label, legend {
@@ -18,6 +20,11 @@ label, legend {
   color: #666666;
   display: block;
   font-size: 18px;
+  margin-top: 20px;
+}
+
+label:first-child {
+  margin-top: 30px;
 }
 
 body > div {
@@ -37,22 +44,30 @@ input:not([type='radio']) {
   border-color: #666666;
   border-width: 1px;
   width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 select {
   border-color: #666666;
   border-width: 1px;
   width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 textarea {
   border-color: #666666;
   border-width: 1px;
   width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 fieldset {
-  border: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .submit {
@@ -80,8 +95,8 @@ form > div {
   border: 2px #FA6693 dotted;
   border-left: 0;
   border-right: 0;
-  margin: 0 -40px;
-  padding: 0 40px;
+  margin: 30px -40px;
+  padding: 0 40px 30px;
 }
 
 span {
