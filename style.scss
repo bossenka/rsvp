@@ -5,8 +5,15 @@ $accent-color: #FA1B5E;
 $complementary-color: #FA6693;
 $side-padding: 40px;
 
-h1 {
+// typography
+
+h1,
+label,
+legend {
   font-family: 'Satisfy';
+}
+
+h1 {
   color: $basic-color;
   font-size: 32px;
   text-align: center;
@@ -23,7 +30,6 @@ p {
 }
 
 label, legend {
-  font-family: 'Satisfy';
   color: $basic-color;
   display: block;
   font-size: 18px;
@@ -61,6 +67,10 @@ fieldset {
   border: 0;
   margin: 0;
   padding: 0;
+
+  > label {
+    display: inline;
+  }
 }
 
 button {
@@ -94,10 +104,6 @@ button {
 span {
   color: $accent-color;
   font-weight: bold;
-}
-
-fieldset > label {
-  display: inline;
 }
 
 .buttons {
