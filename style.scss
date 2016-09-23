@@ -50,14 +50,13 @@ body > div {
 }
 
 body {
-  background-image: url('bg.png');
+  background-image: url('http://leibrug.pl/img/rsvp-bg.png');
 }
 
 input:not([type='radio']),
 select,
 textarea {
-  border-color: $basic-color;
-  border-width: 1px;
+  border: 1px solid $basic-color;
   width: 50%;
   padding: 5px;
   box-sizing: border-box;
